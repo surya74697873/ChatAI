@@ -1,0 +1,131 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.Left {
+  width: 30%;
+  border-right: 1px solid white;
+}
+
+.Left > .Header {
+  height: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.ChatPlus {
+  background-color: blueviolet;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.ChatPlus:hover{
+  background-color: rgb(149, 51, 240);
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo > span {
+  font-size: 1.5em;
+}
+
+.Header button {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+
+.Left > .Footer {
+  border-top: 1px solid white;
+  height: 40%;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Left > .Footer > button {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+
+.BtnChats{
+    margin-top: 1em;
+}
+
+.BtnChats button{
+    border: 1px solid;
+    padding: .5em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button {
+  padding-inline: 0.5em;
+  margin-top: 0.7em;
+}
+
+button > span {
+  margin-left: 0.5em;
+}
+
+.Right {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+
+.Chats {
+  display: flex;
+  width: 80%;
+  column-gap: 1em;
+  margin-top: 1em;
+}
+
+.Chats > img {
+  height: 50px;
+  width: 50px;
+}
+
+.InputFooter{
+    width: 80%;
+}
+
+.InputFooter button{
+    background: inherit;
+}
+
+.Input{
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 1em 0;
+}
+
+input{
+    background-color: inherit;
+    height: 50px;
+    width: 80%;
+    flex : 1;
+    outline: none;
+    color: black;
+    padding: 1em;
+    font-size: 1em;
+}
